@@ -1,0 +1,17 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+**/*.sample
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# env file
+.env
+# VSCode settings.
+.vscode
+
+# cdk context
+cdk.context.json
